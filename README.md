@@ -16,6 +16,14 @@ A React Typpplication for managing users, posts, and tasks using the JSONPlaceho
 - Material-UI for components
 - React Router for navigation
 
+## Routes
+
+- `/` - Homepage with navigation to Users and Tasks
+- `/users` - Users list with add/edit functionality
+- `/users/:id` - Individual user details
+- `/users/:id/posts` - User's posts with CRUD operations
+- `/tasks` - Tasks list with filtering and pagination
+
 ## Getting Started
 
 Install dependencies:
